@@ -163,9 +163,6 @@
 		padding-left: 15px;
 	}
 
-	.site-logo img {
-		height: 22px;
-	}
 
 	/* Navigation */
 	.navbar-toggle {
@@ -460,5 +457,17 @@
 
 	.site-footer .col-xs-offset-3 {
 		margin-left: 0;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.hero .col-md-6:first-child {
+		top: 35%;
+	}
+
+	.hero .col-md-6:last-child {
+		position: absolute;
+		right: 0;
+		bottom: -12%;
 	}
 }

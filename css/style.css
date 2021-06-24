@@ -172,6 +172,7 @@ html, body {
 
 .site-logo img {
     padding-bottom: 2px;
+    width:200px;
 }
 
 /* Navigation */
@@ -264,6 +265,9 @@ html, body {
     margin-bottom: 100px;
     background-color: #fff;
     z-index: 1;
+}
+.menu-center{
+margin-top: 1.2rem;
 }
 /* site-section */
 .site-section {
@@ -575,3 +579,4 @@ a.icon-up-bg:hover {color: #212121;}
     color: #fff;
     text-align: center;
 }
+
