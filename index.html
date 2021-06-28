@@ -216,7 +216,7 @@
                         <div class="portfolio-item">
                             <img src="/img/portfolio-5.jpg" class="img-res" alt="">
                             <div class="portfolio-item-info">
-                                <h4>>Not AVailable Yet</h4>
+                                <h4>Not AVailable Yet</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem5"><span
                                         class="glyphicon glyphicon-eye-open"></span></a>
                                 <a href="#"><span class="glyphicon glyphicon-link"></span></a>
@@ -227,7 +227,7 @@
                         <div class="portfolio-item">
                             <img src="/img/portfolio-6.jpg" class="img-res" alt="">
                             <div class="portfolio-item-info">
-                                <h4>>Not AVailable Yet</h4>
+                                <h4>Not AVailable Yet</h4>
                                 <a href="#" data-toggle="modal" data-target="#portfolioItem6"><span
                                         class="glyphicon glyphicon-eye-open"></span></a>
                                 <a href="#"><span class="glyphicon glyphicon-link"></span></a>
@@ -244,7 +244,7 @@
 
                 <h3>Contact</h3>
                 <img src="/img/lines.svg" class="img-lines" alt="lines">
-                <form>
+                <form action="POST" data-netlify="true">
                     <div class="row">
                         <div class="col-sm-6">
                             <input type="text" name="name" class="form-control mt-x-0" placeholder="Name" required>
@@ -256,6 +256,9 @@
                             <textarea name="message" id="mesaage" class="form-control" placeholder="Message"
                                 required></textarea>
                         </div>
+                        <div class="col-sm-12">
+                            <div data-netlify-recaptcha="true"></div>
+                        </div> 
                     </div>
                     <button href="#" class="btn btn-border" type="submit">Hire Me <span
                             class="glyphicon glyphicon-send"></span></button>
