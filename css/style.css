@@ -531,7 +531,6 @@ margin-top: 1.2rem;
 /* FOOTER
 ================================================== */
 .site-footer {
-    position: fixed;
     bottom: 0;
     padding: 30px 0;
     width: 100%;
